@@ -19,7 +19,7 @@ function myButtonClicked() {
   let text = ""
   let counter = 0
   const integerA = parseInt(document.getElementById("integer-A").value)
-  const integerB = parseInt(document.getElementById("integer-B").value)
+  var integerB = parseInt(document.getElementById("integer-B").value)
 
   while (counter <= integerA) {
     text = text + "Your number is: " + integerB
