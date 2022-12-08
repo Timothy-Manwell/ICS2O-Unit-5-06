@@ -15,9 +15,14 @@ if (navigator.serviceWorker) {
   })
 }
 
-/**
- * This function displays an alert.
- */
 function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+  let text = ""
+  const integerA = parseInt(document.getElementById("integer-A").value)
+  const integerB = parseInt(document.getElementById("integer-B").value)
+
+  while (integerA <= integerB || integerB <= integerA) {
+    text = text + "Your number is: " + integerB
+    integerB++
+  }
+  document.getElementById("answer").innerHTML = text
 }

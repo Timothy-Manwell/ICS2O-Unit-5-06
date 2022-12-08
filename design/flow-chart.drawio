@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="GInHtZuMB5CcCfA9ihm7" name="Page-1">
-        <mxGraphModel dx="285" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="770" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -10,20 +10,28 @@
                 <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="300" y="260" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="10">
+                <mxCell id="11" style="edgeStyle=none;html=1;" parent="1" source="3" target="10" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="Get integerA" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
                     <mxGeometry x="300" y="360" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="10" target="16">
+                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="10" target="16" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="Get integerB" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                <mxCell id="10" value="Get integerB" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
                     <mxGeometry x="300" y="450" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="While&lt;br&gt;&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="550" width="100" height="100" as="geometry"/>
+                <mxCell id="19" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="18">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="615" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="While&lt;br&gt;counter &amp;lt; integerA" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="265" y="550" width="170" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="The number is:&amp;nbsp;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="620" width="180" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
