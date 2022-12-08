@@ -24,6 +24,7 @@ function myButtonClicked() {
   while (counter <= integerA) {
     text = text + "Your number is: " + integerB
     counter++
+    integerB++
   }
   document.getElementById("answer").innerHTML = text
 }
