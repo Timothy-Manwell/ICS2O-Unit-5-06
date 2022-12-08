@@ -23,7 +23,7 @@ function myButtonClicked() {
   const integerBOV = parseInt(document.getElementById("integer-B").value)
 
   while (counter < integerA) {
-    text = text + "Your number is: " + integerB
+    text = text + "<br />Your number is: " + integerB
     counter++
     integerB = integerB + integerBOV
   }
