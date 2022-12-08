@@ -20,11 +20,12 @@ function myButtonClicked() {
   let counter = 0
   const integerA = parseInt(document.getElementById("integer-A").value)
   var integerB = parseInt(document.getElementById("integer-B").value)
+  const integerBOV = parseInt(document.getElementById("integer-B").value)
 
   while (counter <= integerA) {
     text = text + "Your number is: " + integerB
     counter++
-    integerB = integerB + integerB
+    integerB = integerB + integerBOV
   }
   document.getElementById("answer").innerHTML = text
 }
